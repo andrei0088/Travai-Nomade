@@ -1,8 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Portfolio Project
+
+This is a modern web application built with [Next.js](https://nextjs.org), designed to showcase my skills in React, TypeScript, and frontend development. The project was bootstrapped using [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Features
+
+- **React 19 & Next.js 15**: Latest technologies for fast and scalable web apps.
+- **TypeScript**: Type-safe code for better maintainability.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **PostCSS**: CSS transformations and optimizations.
+- **Optimized Fonts**: Uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) for performance.
+- **Responsive Design**: Works well on all devices.
+- **Easy Customization**: Modular structure for adding new features.
 
 ## Getting Started
 
-First, run the development server:
+To run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +26,38 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the main page by modifying `src/app/page.tsx`. The app supports hot-reloading for instant feedback.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Folder Structure
 
-## Learn More
+- `src/` – Application source code
+- `public/` – Static assets (images, icons, etc.)
+- `.next/` – Build output (generated automatically)
+- `package.json` – Project dependencies and scripts
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **React**
+- **Next.js**
+- **TypeScript**
+- **Tailwind CSS**
+- **PostCSS**
+- **ESLint**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+Deploy easily on [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), the creators of Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+See the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## About Me
+
+This project is part of my personal portfolio. It demonstrates my ability to build modern, performant web applications using the latest frontend technologies.
+
+Feel free to contact me for collaboration or job opportunities!
+
+---
+
+**Thank you for checking out my project!**
