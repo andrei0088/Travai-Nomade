@@ -1,12 +1,23 @@
 "use client";
-import { useSearchParams } from "next/navigation";
+
+import { useEffect, useState } from "react";
 
 export default function Contact() {
-  const searchParams = useSearchParams();
+  const [params, setParams] = useState({
+    name: "Non fourni",
+    email: "Non fourni",
+    message: "Non fourni",
+  });
 
-  const name = searchParams.get("name");
-  const email = searchParams.get("email");
-  const message = searchParams.get("message");
+  useEffect(() => {
+    // Citim parametrii din URL după ce pagina se încarcă
+    const searchParams = new URLSearchParams(window.location.search);
+    setParams({
+      name: searchParams.get("name") || "Non fourni",
+      email: searchParams.get("email") || "Non fourni",
+      message: searchParams.get("message") || "Non fourni",
+    });
+  }, []);
 
   return (
     <div className="p-10">
@@ -16,15 +27,16 @@ export default function Contact() {
         envoyé. Cet environnement permet de tester les interfaces et
         l&apos;expérience utilisateur sans partager vos informations.
       </strong>
+
       <h1 className="text-2xl font-bold mb-4">Paramètres reçus :</h1>
       <p>
-        <strong>Nom :</strong> {name || "Non fourni"}
+        <strong>Nom :</strong> {params.name}
       </p>
       <p>
-        <strong>E-mail :</strong> {email || "Non fourni"}
+        <strong>E-mail :</strong> {params.email}
       </p>
       <p>
-        <strong>Message :</strong> {message || "Non fourni"}
+        <strong>Message :</strong> {params.message}
       </p>
     </div>
   );
