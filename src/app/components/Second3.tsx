@@ -9,7 +9,7 @@ const Second3 = () => {
       {/* Textul */}
       <div className="lg:w-1/2">
         <h2 className="text-2xl font-bold text-center lg:text-left mb-6">
-          Oubliez le quotidien, explorez le monde aujourd'hui !
+          Oubliez le quotidien, explorez le monde aujourd&apos;hui !
         </h2>
         <p className="text-gray-700">
           Travail Nomade est votre espace d&apos;entraînement pour le voyage, et
@@ -26,7 +26,7 @@ const Second3 = () => {
 
       {/* Imaginea */}
       <div className="lg:w-1/2 mt-6 lg:mt-0">
-        <img src="./img6.jpeg" alt="" className="w-full rounded-lg shadow-md" />
+        <img src="./img6.jpeg" className="w-full rounded-lg shadow-md" />
       </div>
     </div>
   );
