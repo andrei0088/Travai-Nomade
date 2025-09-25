@@ -19,7 +19,15 @@ const Home = () => {
       <div className="bg-[#f3f3f3] ">
         <ContactForm />
       </div>
-      <h1 className="mt-4 text-2xl font-bold">test</h1>
+      <footer className="bg-gray-900 text-gray-300 py-8 mt-10">
+        <div className="container mx-auto px-4 text-center">
+          <p className="mb-2">© 2025 Travail Nomade. Tous droits réservés.</p>
+          <p className="text-sm">
+            Ceci est un prototype. Les informations affichées ici sont fictives
+            et utilisées uniquement à des fins de démonstration.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };
