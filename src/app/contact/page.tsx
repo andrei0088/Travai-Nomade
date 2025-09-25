@@ -1,5 +1,4 @@
-"use client"; // 🔑 Ce hook indique que c'est un composant client
-
+"use client";
 import { useSearchParams } from "next/navigation";
 
 export default function Contact() {
