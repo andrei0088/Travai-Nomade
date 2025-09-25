@@ -12,15 +12,15 @@ const Second3 = () => {
           Oubliez le quotidien, explorez le monde aujourd'hui !
         </h2>
         <p className="text-gray-700">
-          Travail Nomade est votre espace d’entraînement pour le voyage, et
+          Travail Nomade est votre espace d&apos;entraînement pour le voyage, et
           aussi votre bureau nomade. Conçu autour des moments culturels réels
           que vous vivrez, il vous invite à travailler où bon vous semble.
-          Lancez l’application Travail Nomade, et découvrez: un café vibrant à
-          Lisbonne pour une après-midi productive, un Wi‑Fi rapide dans un
-          temple du design à Montréal, des conversations enrichissantes avec des
-          collègues virtuels à distance. Travaillez de n’importe où, respirez
-          l’inspiration, et explorez une autre application qui transforme chaque
-          jour en nouvelle réalité professionnelle.
+          Lancez l&apos;application Travail Nomade, et découvrez: un café
+          vibrant à Lisbonne pour une après-midi productive, un Wi‑Fi rapide
+          dans un temple du design à Montréal, des conversations enrichissantes
+          avec des collègues virtuels à distance. Travaillez de n&apos;importe
+          où, respirez l&apos;inspiration, et explorez une autre application qui
+          transforme chaque jour en nouvelle réalité professionnelle.
         </p>
       </div>
 

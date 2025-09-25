@@ -46,7 +46,7 @@ const Troisieme = () => {
           {/* Texte explicatif */}
           <p className="text-gray-700 text-sm">
             Travailler depuis des endroits différents apporte de nouvelles
-            perspectives et de l’inspiration.
+            perspectives et de l&apos;inspiration.
           </p>
         </div>
 
@@ -81,8 +81,8 @@ const Troisieme = () => {
 
           {/* Texte explicatif */}
           <p className="text-gray-700 text-sm">
-            Connexions avec des gens du monde entier, échanges d’idées, soutien
-            et collaborations.
+            Connexions avec des gens du monde entier, échanges d&apos;idées,
+            soutien et collaborations.
           </p>
         </div>
 

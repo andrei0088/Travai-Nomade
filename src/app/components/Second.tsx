@@ -29,10 +29,10 @@ const Second = () => {
             {/* Texte associé */}
             <div className="flex flex-col">
               <p className="text-lg font-medium text-gray-800 mb-2">
-                La motivation disparaît quand l’objectif semble trop loin
+                La motivation disparaît quand l&apos;objectif semble trop loin
               </p>
               <span className="bg-white rounded-xl shadow px-4 py-2 text-gray-600 italic">
-                « La motivation s’éteint après une semaine. »
+                « La motivation s&apos;éteint après une semaine. »
               </span>
             </div>
           </div>
@@ -51,10 +51,11 @@ const Second = () => {
             </div>
             <div className="flex flex-col">
               <p className="text-lg font-medium text-gray-800 mb-2">
-                L’anxiété de parler vous empêche d’utiliser vos connaissances
+                L&apos;anxiété de parler vous empêche d&apos;utiliser vos
+                connaissances
               </p>
               <span className="bg-white rounded-xl shadow px-4 py-2 text-gray-600 italic">
-                « J’oublie tout dès la fin de la leçon. »
+                « J&apos;oublie tout dès la fin de la leçon. »
               </span>
             </div>
           </div>
@@ -73,7 +74,7 @@ const Second = () => {
             </div>
             <div className="flex flex-col">
               <p className="text-lg font-medium text-gray-800 mb-2">
-                Trop d’outils, aucun vrai progrès
+                Trop d&apos;outils, aucun vrai progrès
               </p>
               <span className="bg-white rounded-xl shadow px-4 py-2 text-gray-600 italic">
                 « Je jongle avec plusieurs applis et reste bloqué. »

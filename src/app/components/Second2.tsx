@@ -15,7 +15,7 @@ const Second2 = () => {
             1
           </span>
           <p className="mt-4 mb-5">
-            Levez les yeux de l'ordinateur et découvrez le monde
+            Levez les yeux de l&apos;ordinateur et découvrez le monde
           </p>
         </div>
 
@@ -26,7 +26,8 @@ const Second2 = () => {
             2
           </span>
           <p className="mt-4 mb-5">
-            Osez sortir des écrans et laissez-vous surprendre par l'inattendu
+            Osez sortir des écrans et laissez-vous surprendre par
+            l&apos;inattendu
           </p>
         </div>
 

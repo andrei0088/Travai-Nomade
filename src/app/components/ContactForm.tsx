@@ -7,8 +7,8 @@ export const ContactForm = () => {
       id="contact"
       style={{
         backgroundImage: "url('./img7.jpeg')",
-        backgroundSize: "cover", // Pour que l'image couvre tout le div
-        backgroundPosition: "center", // Centrer l'image
+        backgroundSize: "cover", // Pour que l&apos;image couvre tout le div
+        backgroundPosition: "center", // Centrer l&apos;image
         backgroundRepeat: "no-repeat", // Empêche la répétition
       }}
     >
