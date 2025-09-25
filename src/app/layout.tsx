@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Travail Nomade",
   description: "Travail Nomade",
+  icons: "/logo.png", // This will set the favicon
 };
 
 export default function RootLayout({
