@@ -6,7 +6,7 @@ const First = () => {
     <div
   className="w-full h-screen bg-cover bg-center pt-5 text-center text-white"
   id="first"
-  style={{ backgroundImage: "url('/bg1.jpeg')" }}
+  style={{ backgroundImage: "url('./pg1.jpeg')" }}
 >
 
       <img src="./logo2.png" alt="Logo" className="w-1/8 mx-auto block mb-6" />
