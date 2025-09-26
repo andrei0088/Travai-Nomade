@@ -1,5 +1,4 @@
-https://andrei0088.github.io/Travail-Nomade/
-
+https://andrei0088.github.io/travail-nomade/
 # Next.js Portfolio Project
 
 This is a modern web application built with [Next.js](https://nextjs.org), designed to showcase my skills in React, TypeScript, and frontend development. The project was bootstrapped using [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
