@@ -7,7 +7,7 @@ const First = () => {
       className="pg1 w-full h-screen bg-cover bg-center pt-5 text-center text-white"
       id="first"
     >
-      <img src="/logo2.png" alt="Logo" className="w-1/8 mx-auto block mb-6" />
+      <img src="./logo2.png" alt="Logo" className="w-1/8 mx-auto block mb-6" />
 
       <h2 className="text-3xl font-bold mb-10 mt-25">
         Travaillez à distance tout en voyageant à travers le monde.
