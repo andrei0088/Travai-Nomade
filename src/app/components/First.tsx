@@ -4,9 +4,11 @@ import React from "react";
 const First = () => {
   return (
     <div
-      className="pg1 w-full h-screen bg-cover bg-center pt-5 text-center text-white"
-      id="first"
-    >
+  className="w-full h-screen bg-cover bg-center pt-5 text-center text-white"
+  id="first"
+  style={{ backgroundImage: "url('/bg1.jpeg')" }}
+>
+
       <img src="./logo2.png" alt="Logo" className="w-1/8 mx-auto block mb-6" />
 
       <h2 className="text-3xl font-bold mb-10 mt-25">
