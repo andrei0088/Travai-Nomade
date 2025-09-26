@@ -1,4 +1,4 @@
-https://andrei0088.github.io/Travai-Nomade/
+https://andrei0088.github.io/Travail-Nomade/
 
 # Next.js Portfolio Project
 
