@@ -40,9 +40,9 @@ const First = () => {
       </Link>
 
       <div className="bg-white/50 backdrop-blur-sm flex justify-end items-center p-4 mt-10 space-x-3">
-        <img src="/node.png" alt="Node.js" className="w-24" />
-        <img src="/rn.webp" alt="" className="w-25" />
-        <img src="/exp.png" alt="" className="w-25" />
+        <img src="./node.png" alt="Node.js" className="w-24" />
+        <img src="./rn.webp" alt="" className="w-25" />
+        <img src="./exp.png" alt="" className="w-25" />
       </div>
     </div>
   );
